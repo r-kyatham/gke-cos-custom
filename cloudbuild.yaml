@@ -50,8 +50,8 @@ steps:
          '-zone=${_ZONE}',
          '-project=$PROJECT_ID',
          '-image-name=${_TARGET_IMAGE_NAME}-${_SHORT_BUILD_ID}',
-         '-network=',
-         '-subnet=',
+         '-network=default',
+         '-subnet=us-central1',
          '-image-family=${_TARGET_IMAGE_FAMILY}',
          '-image-project=$PROJECT_ID',
          '-labels=gke-golden-image=${_GOLDEN_BASE_IMAGE},gke-custom-version=${SHORT_SHA},build-id=${BUILD_ID}']
