@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 # MANDATORY SETTINGS
 # ------------------------------------------------------------------------------
-project_id = "gke-h100" # !!! REPLACE THIS VALUE !!!
+project_id = "gce-h100" # !!! REPLACE THIS VALUE !!!
 
 # GitHub repository details for the trigger
 github_owner     = "r-kyatham"       # !!! REPLACE THIS VALUE !!!
