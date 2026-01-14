@@ -27,7 +27,7 @@ resource "google_storage_bucket" "cos_imagebuild_bucket" {
   name                        = "${var.project_id}-cos-imagebuild-${random_id.bucket_suffix.hex}"
   location                    = "US"
   uniform_bucket_level_access = true
-  force_destroy               = false
+  force_destroy               = true
 }
 
 # Create a dedicated service account for the Cloud Build trigger
