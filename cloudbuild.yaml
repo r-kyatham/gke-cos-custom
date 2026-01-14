@@ -50,7 +50,7 @@ steps:
          '-zone=${_ZONE}',
          '-project=$PROJECT_ID',
          '-image-name=${_TARGET_IMAGE_NAME}-${_SHORT_BUILD_ID}',
-         "-machine-type=a4x-highgpu-4g",
+         "-machine-type=a2-ultragpu-1g",
          '-network=',
          '-subnet=',
          '-image-family=${_TARGET_IMAGE_FAMILY}',
